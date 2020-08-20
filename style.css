@@ -1,0 +1,550 @@
+body {
+    margin: 0;
+    background-color:white;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+
+}
+
+.row {
+    display: flex;
+
+}
+
+.header-logo {
+    width: 200px;
+}
+.header-nav {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 10px;
+    margin: 0 20px;
+    font-size: 15px;
+
+    
+}
+.navbar a:hover {
+    color:rgb(92, 0, 128);
+    transition: 0.5s;
+}
+/* rechrge main hedaing section*/
+.image {
+    position: relative;
+    height: 500px;
+    background-color: violet;
+}
+
+
+
+.overlay {
+    position: absolute;
+    background-color:rgb(175, 41, 228);
+    opacity: 0.15;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.img-txtbox {
+    position: absolute;
+    z-index: 2;
+    top: 2%;
+    right: 10%;
+    flex: 0 0 50%;
+    margin:20px 20px;
+    height:50%;
+}
+.img-txtbox .img-h{
+    width:50%;
+}
+
+.img-txtbox .img-h h1 {
+    font-size: 60px;
+    font-weight: 400px;
+    color: rgb(92, 0, 128);;
+
+}
+
+.img-txtbox .img-h a {
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    padding: 5px 35px;
+    border-radius: 25px;
+    background-color: rgb(92, 0, 128);;
+    margin-bottom: 50%;
+}
+.img-txtbox .img-h p{
+    color: rgb(92, 0, 128);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:20px 20px;
+}
+.img-txtbox .img-h a:hover {
+    background-color: rgb(198, 101, 236);;
+    transition: 0.4s;
+}
+/*right-aligned-image*/
+.t-5 {
+    margin:5px  0;
+}
+
+.t-box-5 {
+    flex: 0 0 80%;
+    margin:50px 50px;
+    right:70%;
+}
+
+.t-box-5 .img-box {
+    flex:0 0 50%;
+    margin:0 60px;
+
+}
+.t-box-5 .img-box img{
+    width: 80%;
+    height: 90%;
+    border-color: rgb(112, 110, 110);
+    border-width: 3px;
+    padding-left: 50px;
+
+}
+
+.t-box-5 .txtbox {
+    flex:0 0 60%;
+    width:150%;
+    padding:2.5%;
+    margin:30px 0;
+    height:70%;
+    padding-top:80px;
+    font-size:20px ;
+    
+
+}
+.t-box-5 .txt-box p{
+    margin:60px 0;
+    font-size: 60px;
+    margin-bottom: 300px;
+    letter-spacing: 40;
+}
+.t-box-5 .txt-box h2{
+    padding:60px 60px;
+    margin:50px 0;
+    font-size: 60px;
+    margin-top: 300px;
+    padding-top:50px;
+    padding-bottom: 300px;
+    letter-spacing: 40px;
+}
+.t-box-5 .txt-box h1{
+    color: rebeccapurple;
+    font-size: 50px;
+}
+/*banner type 2 boxes vertical*/
+.image1 {
+    position: relative;
+    height: 800px;
+}
+
+
+
+.overlay1 {
+    position: absolute;
+    background-color:rgb(219, 158, 243);
+    opacity: 0.15;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.img-txtbox1 {
+    position: absolute;
+    z-index: 2;
+    top: 2%;
+    flex: 0 0 50%;
+    width:100%;
+    height:100%;
+
+
+}
+.img-txtbox1 .box-h{
+    width:90%;
+    background-color: #967edd;
+    background-image: url(https://www.phonepe.com/webstatic/static/trust-banner-29acd6391200d69ad22567eb1a15a10b.png);
+    border-radius: 32px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:30%;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.img-txtbox1 .box-h h1 {
+    font-size: 60px;
+    font-weight: 400px;
+    color:white;
+    text-align: center;
+}
+.img-txtbox1 .box-h p{
+    color: white;
+    text-align: center;
+    margin-top:50px
+}
+
+.img-txtbox1 .txtbox{
+    text-align: center;
+
+
+}
+.img-txtbox1 .txtbox a {
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: rgb(70, 182, 216);
+    margin-bottom: 50%;
+    vertical-align:middle;
+    padding:5px 25px;
+    scroll-padding-right: 20;
+}
+.img-txtbox1 .txtbox h1{
+    color: #361968;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:20px 20px;
+    text-align: center;
+    font-weight: 900;
+
+}
+.img-txtbox1 .txtbox a:hover {
+    background-color: rgb(101, 155, 236);;
+    transition: 0.4s;
+}
+
+.img-txtbox1 .logo img {
+    display: inline-block;
+    width: 100px;
+    margin-right: 32px;
+    vertical-align: middle;
+    border-style:none ;
+}
+/*right-aligned image*/
+.t6 {
+    margin: 50px 0;
+}
+
+.tbox {
+    flex: 0 0 70%;
+    right:20%;
+}
+
+.tbox .imgbox2 {
+    flex:0 0 50%;
+    margin: 20px 20px;
+    border:solid;
+    color:grey;
+    background-color: rgb(115, 134, 245);
+}
+.tbox .imgbox2 img{
+    width:70%;
+    border-radius: 10px;
+    right:20%;
+    height:70%;
+
+}
+
+.tbox .txtbox2 {
+    flex:0 0 60%;
+    margin-right: 40px;
+    height:100%;
+    text-align: justify;
+}
+.tbox .txtbox2 h1{
+    font-size: 50px;
+    padding-left: 40%;
+    color: rgba(39, 21, 199, 0.933);
+}
+.tbox .txtbox2 h2{
+    padding-left: 40%;
+    color:rgb(140, 130, 238);
+
+}
+.tbox .txtbox2 h6{
+    padding-left: 40%;
+    font-size: 15px;
+    letter-spacing: -3;
+
+}
+/*three boxes vertical*/
+.image2 {
+    position: relative;
+    height: 800px;
+}
+
+
+
+.overlay2 {
+    position: absolute;
+    background-color:rgb(219, 158, 243);
+    opacity: 0.15;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.img-txtbox2 {
+    position: absolute;
+    z-index: 2;
+    top: 2%;
+    flex: 0 0 50%;
+    width:100%;
+    height:100%;
+}
+.img-txtbox2 .box-h h1{
+    text-align: center;
+    color: darkviolet;
+    font-size:40px;
+
+}
+.img-txtbox2  .box-h h3{
+    text-align: center;
+}
+.img-txtbox2 .linebox{
+    flex:0 0 40%;
+    margin:auto;
+}
+.img-txtbox2 .linebox .box1{
+    height:70%;
+    border: solid;
+    border-radius:20px;
+    border-width: 1px;
+    border-bottom-width: 5px;
+    border-color: grey;
+    border-bottom-color:lightseagreen;
+    margin:20px 20px 20px 20px;
+    background-color: white;
+}
+.img-txtbox2 .linebox .box1 h4{
+    padding-left:10%;
+    padding-bottom: 60px;
+    
+}
+.img-txtbox2 .linebox .box1 h1{
+    padding-left:10%;
+    padding-bottom: 60px;
+    
+}
+.img-txtbox2 .linebox .box1 p{
+    padding-left:10%;
+    padding-bottom: 60px;
+    
+}
+.img-txtbox2 .linebox .box1 a{
+    padding-left:20%;
+    
+}
+.img-txtbox2 .linebox .box2{
+    height:70%;
+    border: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: grey;
+    border-bottom-color:palevioletred;
+    border-bottom-width:5px ;
+    margin:20px 20px 20px 20px;
+    background-color: white;
+
+}
+.img-txtbox2 .linebox .box2 h4{
+    padding-left:10%;
+    padding-bottom: 60px;
+    
+}
+.img-txtbox2 .linebox .box2 h1{
+    padding-left:10%;
+    padding-bottom: 60px;
+    
+}
+.img-txtbox2 .linebox .box2 p{
+    padding-left:10%;
+    padding-bottom: 60px;
+    
+}
+.img-txtbox2 .linebox .box2 a{
+    padding-left:20%;
+    
+}
+.img-txtbox2 .linebox .box3{
+    height:90%;
+    border: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: grey;
+    border-bottom-width: 5px;
+    border-bottom-color: brown;
+    margin:20px 20px 20px 20px ;
+    background-color:white;
+
+}
+.img-txtbox2 .linebox .box3 h4{
+    padding-left:10%;
+    padding-bottom: 60px;
+    
+}
+.img-txtbox2 .linebox .box3 h1{
+    padding-left:10%;
+    padding-bottom: 60px;
+    
+}
+.img-txtbox2 .linebox .box3 p{
+    padding-left:10%;
+    padding-bottom: 60px;
+    
+}
+.img-txtbox2 .linebox .box3 a{
+    padding-left:20%;
+    
+}
+.img-txtbox2 button{
+    text-align: center;
+}
+.img-txtbox2 .button a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: rgb(14, 253, 253);;
+    margin-bottom: 50%;
+    padding:5px 25px;
+    margin-left:500px;
+    margin-bottom:60px
+}
+/* night sky img section*/
+.page {
+    position: relative;;
+    height: 400px;
+    max-width: 1268px;
+    margin: 0 auto;
+    background-position: 0 100%;
+    background-size: 100%;
+    background-repeat: repeat-x;
+    background-color: darkblue;
+}
+.overlay {
+    position: absolute;
+    background-color:white;
+    opacity: 0.15;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.page .pic{
+    flex:0 0 20%;
+    margin:0;
+}
+.page .pic img{
+    width:500%;
+    margin-right: 0px;
+    bottom:0%;
+    padding-top:100px ;
+    margin-bottom: 0;
+
+}
+.page .img-p1 h1{
+    font-weight: 500;
+    padding-right:10px;
+    color:plum;
+    width:50%
+}
+.page .img-p2 h2{
+    padding-left: 10px;
+    padding-right:10px;
+    color:plum;
+}
+.page .img-p2 h1{
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right:10px;
+    color:white;
+}
+.page .img-p3 h1{
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right:10px;
+    color:white;
+}
+.page .img-p3 h2{
+    padding-left: 10px;
+    padding-right:10px;
+    color:plum;
+}
+.page .img-p4 h2{
+    padding-left: 10px;
+    padding-right:10px;
+    color:plum;
+}
+.page .img-p4 h1{
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right:10px;
+    color:white;
+}
+/* finally the end footer*/
+footer {
+    background-color:white;
+    margin-top: 50px;
+}
+
+.footer-logo {
+    width: 20%;
+    margin:50px 0;
+    color: black;
+}
+.footer-logo img{
+    width: 130%;;
+}
+
+.footer-links {
+    width: 20%;
+    color:black;
+    margin: 50px 30px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color:black;
+    display: block;
+    margin: 15px 20px;
+    font-weight: 50%;
+}
+.footer-links h1 {
+    color:black;
+    display: block;
+    margin: 5px 10px;
+    border:solid;
+     border-radius: 10px;
+     font-size: 20px;
+     text-align: center;
+}
+.footer-links .footer-icon-main {
+    margin-left: 30px;
+
+}
+.footer-icon-main{
+    font-size: 5px;
+    color: black;
+    margin-top: 50px;
+    padding-right: 10px;
+
+
+}
+
